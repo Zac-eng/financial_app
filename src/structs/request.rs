@@ -6,9 +6,9 @@ pub struct AssetInfo {
 #[derive(serde::Deserialize)]
 pub struct HistoryRequest {
 	pub asset: String,
-	pub resolution: u8,
-	pub start_time: u32,
-	pub end_time: u32,
+	pub resolution: Option<u8>,
+	pub start_time: Option<u32>,
+	pub end_time: Option<u32>,
 }
 
 // #[derive(serde::Serialize)]

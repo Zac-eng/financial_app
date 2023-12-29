@@ -15,3 +15,6 @@ Cargo.lock
 
 # image created by test
 *.png
+
+# environmantal variable
+.env
